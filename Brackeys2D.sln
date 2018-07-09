@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys2D", "Assembly-CSharp-firstpass.csproj", "{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys2D", "Assembly-CSharp-Editor.csproj", "{E07D5F9D-7552-0193-DD5D-CBE479BEA081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys2D", "Assembly-CSharp-Editor-firstpass.csproj", "{01ED5E85-D300-2A57-5C74-E3A7BB23B285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07D5F9D-7552-0193-DD5D-CBE479BEA081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07D5F9D-7552-0193-DD5D-CBE479BEA081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07D5F9D-7552-0193-DD5D-CBE479BEA081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07D5F9D-7552-0193-DD5D-CBE479BEA081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ED5E85-D300-2A57-5C74-E3A7BB23B285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ED5E85-D300-2A57-5C74-E3A7BB23B285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ED5E85-D300-2A57-5C74-E3A7BB23B285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ED5E85-D300-2A57-5C74-E3A7BB23B285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
