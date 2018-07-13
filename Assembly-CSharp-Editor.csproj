@@ -360,6 +360,10 @@
       <Project>{E22739B1-FA22-14A4-DD5A-C7E44ECFBAFE}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{08464A22-E129-75C9-5315-3B95839A914C}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
       <Project>{01ED5E85-D300-2A57-5C74-E3A7BB23B285}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
