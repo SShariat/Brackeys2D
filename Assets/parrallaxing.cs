@@ -40,7 +40,19 @@ public class parrallaxing : MonoBehaviour {
         for (int i = 0; i < backgrounds.Length; i++) {
             //the parallax is the opposite of the camera movement bcs
             //the previous frame is multiplied by the scale
-            float parallax = (previousCamPos.x - cam.position.x) * parrallaxScales[i];
+            float parrallax = (previousCamPos.x - cam.position.x) * parrallaxScales[i];
+
+            //set a target x position which is the current position + the parrallax
+            float backgroundTargetPosX = backgrounds[i].position.x + parrallax;
+
+            //Create a target position which is the background's current position with it's target x position
+            Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX, backgrounds[i].position.y, backgrounds[i].position.z);
+
+            //fade between the current position and the target position using "lurp"
+            backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, backgroundTargetPos, smoothing * Time.deltaTime);
         }
+
+        //set the previousCamPos to the current camera's position at the end of the frame
+        previousCamPos = cam.position;
 	}
 }
